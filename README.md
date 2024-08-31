@@ -1,17 +1,3 @@
-```markdown
-# Projeto de Sistema de Gerenciamento de Alimentos
-
-Este projeto é um sistema de gerenciamento para colaboradores, beneficiários e alimentos. Utiliza Flask para criar uma API RESTful e SQLite como banco de dados. O padrão de projeto é o MVC (Model-View-Controller).
-
-## Estrutura do Projeto
-
-- **`app.py`**: Arquivo principal para inicializar o Flask e registrar as rotas.
-- **`controller/`**: Contém os controladores que lidam com as requisições HTTP e interagem com os serviços.
-- **`service/`**: Contém a lógica de negócio e interage diretamente com o banco de dados.
-- **`banco/`**: Contém as funções para conectar e gerenciar o banco de dados.
-
-## Configuração do Ambiente
-
 ### 1. Instalar Dependências
 
 Certifique-se de ter o Python instalado. Instale as dependências necessárias usando o `pip`:
