@@ -6,15 +6,6 @@ Certifique-se de ter o Python instalado. Instale as dependências necessárias u
 pip install flask
 ```
 
-### 2. Inicializar o Banco de Dados
-
-Execute o script para criar as tabelas no banco de dados:
-
-```python
-from banco.DatabaseConnection import inicializar_banco
-inicializar_banco()
-```
-
 ## Endpoints da API
 
 ### Usuários
