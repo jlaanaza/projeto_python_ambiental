@@ -25,7 +25,7 @@ def inicializar_banco():
     CREATE TABLE IF NOT EXISTS Colaborador (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         nome_colaborador TEXT,
-        FOREIGN KEY(usuario_id) REFERENCES Usuario(id) ON DELETE CASCADE
+        FOREIGN KEY(id) REFERENCES Usuario(id) ON DELETE CASCADE
     )
     ''')
 
@@ -34,7 +34,7 @@ def inicializar_banco():
     CREATE TABLE IF NOT EXISTS Beneficiario (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         nome_beneficiario TEXT,
-        FOREIGN KEY(usuario_id) REFERENCES Usuario(id) ON DELETE CASCADE
+        FOREIGN KEY(id) REFERENCES Usuario(id) ON DELETE CASCADE
     )
     ''')
 
